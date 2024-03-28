@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Gedung Itera</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table>
+    <td>
+      <th>
+        <img src="itera.png" alt="" style="height: 150px; margin-left: 30%;">
+      </th>
+      <th>
+        <h1>PETA GEDUNG ITERA</h1>
+      </th>
+    </td>
+  </table>
+  <div id="container">
+    <div id="menu">
+      <h2>Menu</h2>
+      <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+      </div>
+      <div class="group" id="poliklinik-group">
+        <div class="group-header" onclick="toggleGroup('poliklinik')">Poliklinik Itera</div>
+        <div class="group-content">
+          <input type="checkbox" id="poliklinik-checkbox" checked>
+          <label for="poliklinik-checkbox">Poliklinik Itera</label>
+        </div>
+        <br>
+      </div>
+      <div class="group" id="gedung-group">
+        <div class="group-header" onclick="toggleGroup('gedung')">Gedung Kuliah</div>
+        <div class="group-content">
+          <input type="checkbox" id="gedung-a-checkbox" checked>
+          <label for="gedung-a-checkbox">Gedung A</label>
+          <br>
+          <input type="checkbox" id="gedung-b-checkbox" checked>
+          <label for="gedung-b-checkbox">Gedung B</label>
+          <br>
+          <input type="checkbox" id="gedung-c-checkbox" checked>
+          <label for="gedung-c-checkbox">Gedung C</label>
+          <br>
+          <input type="checkbox" id="gedung-d-checkbox" checked>
+          <label for="gedung-d-checkbox">Gedung D</label>
+          <br>
+          <input type="checkbox" id="gedung-e-checkbox" checked>
+          <label for="gedung-e-checkbox">Gedung E</label>
+          <br>
+          <input type="checkbox" id="gedung-f-checkbox" checked>
+          <label for="gedung-f-checkbox">Gedung F</label>
+        </div>
+        <br>
+      </div>
+      <div class="group" id="umum-group">
+        <div class="group-header" onclick="toggleGroup('umum')">Gedung Kuliah Umum</div>
+        <div class="group-content">
+          <input type="checkbox" id="gk1-checkbox" checked>
+          <label for="gk1-checkbox">Gedung GKU 1</label>
+          <br>
+          <input type="checkbox" id="gk2-checkbox" checked>
+          <label for="gk2-checkbox">Gedung GKU 2</label>
+        </div>
+        <br>
+      </div>
+      <div class="group" id="labtek-group">
+        <div class="group-header" onclick="toggleGroup('labtek')">Laboratorium Teknik</div>
+        <div class="group-content">
+          <input type="checkbox" id="lab-1-checkbox" checked>
+          <label for="lab-1-checkbox">Labtek 1</label>
+          <br>
+          <input type="checkbox" id="lab-2-checkbox" checked>
+          <label for="lab-2-checkbox">Labtek 2</label>
+          <br>
+          <input type="checkbox" id="lab-3-checkbox" checked>
+          <label for="lab-3-checkbox">Labtek 3</label>
+          <br>
+          <input type="checkbox" id="lab-OZT-checkbox" checked>
+          <label for="lab-OZT-checkbox">Labtek OZT</label>
+        </div>
+        <br>
+      </div>
+      <div class="group" id="kantin-group">
+        <div class="group-header" onclick="toggleGroup('kantin')">Kantin</div>
+        <div class="group-content">
+          <input type="checkbox" id="galeri2-checkbox" checked>
+          <label for="galeri2-checkbox">Galeri 2 Itera</label>
+          <br>
+          <input type="checkbox" id="rk-checkbox" checked>
+          <label for="rk-checkbox">Kantin RK</label>
+          <br>
+          <input type="checkbox" id="bkl-checkbox" checked>
+          <label for="bkl-checkbox">Kantin BKL</label>
+        </div>
+        <br>
+      </div>
+      <div class="group" id="asrama-group">
+        <div class="group-header" onclick="toggleGroup('asrama')">Asrama</div>
+        <div class="group-content">
+          <input type="checkbox" id="tb1-checkbox" checked>
+          <label for="tb1-checkbox">Gedung Asrama TB-1</label>
+          <br>
+          <input type="checkbox" id="tb2-checkbox" checked>
+          <label for="tb2-checkbox">Gedung Asrama TB-2</label>
+          <br>
+          <input type="checkbox" id="tb3-checkbox" checked>
+          <label for="tb3-checkbox">Gedung Asrama TB-3</label>
+          <br>
+          <input type="checkbox" id="tb4-checkbox" checked>
+          <label for="tb4-checkbox">Gedung Asrama TB-4</label>
+          <br>
+          <input type="checkbox" id="tb5-checkbox" checked>
+          <label for="tb5-checkbox">Gedung Asrama TB-5</label>
+        </div>
+        <br>
+      </div>
+      </div>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+<footer>
+  <div class="container">
+    <p>&copy; Adra Salfie - 121140151</p>
+  </div>
+</footer>
+</html>

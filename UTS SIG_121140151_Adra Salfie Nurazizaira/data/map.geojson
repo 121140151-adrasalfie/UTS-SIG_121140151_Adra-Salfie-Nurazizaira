@@ -1,0 +1,383 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Poliklinik Itera",
+        "jenis": "kesehatan"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31578763176884,
+          -5.357842266064921
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung C",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.3135389891537,
+          -5.358471267659326
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung D",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31338375103968,
+          -5.3588360232738665
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung A",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31428313087889,
+          -5.35800569439462
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung B",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31518251517315,
+          -5.358000267397074
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung E",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31553748030694,
+          -5.360003914589626
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung GKU 2",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.3141747768309,
+          -5.360318679334199
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung GKU 1",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31035249629036,
+          -5.360943775599736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung F",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31372263274233,
+          -5.361485626251849
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Asrama TB-1",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31737345760376,
+          -5.3584158730907205
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Asrama TB-2",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31937863943995,
+          -5.358484467114295
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Asrama TB-4",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31733636106173,
+          -5.35924049952402
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Asrama TB-3",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.319000085678,
+          -5.359147660029677
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Gedung Asrama TB-5",
+        "jenis": "gedung"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31840134112599,
+          -5.358492896876456
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Labtek 1",
+        "jenis": "lab"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31023004390869,
+          -5.360324293567231
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Labtek 3",
+        "jenis": "lab"
+      },
+      "geometry": {
+        "coordinates": [
+          105.30889816836077,
+          -5.360288128535899
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Labtek 2",
+        "jenis": "lab"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31033296156431,
+          -5.361596095811336
+        ],
+        "type": "Point"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Labtek OZT",
+        "jenis": "lab"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31034335333868,
+          -5.362179549930701
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Galeri 2 Itera",
+        "jenis": "kantin"
+      },
+      "geometry": {
+        "coordinates": [
+          105.30872594898176,
+          -5.360713038862087
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Kantin RK",
+        "jenis": "kantin"
+      },
+      "geometry": {
+        "coordinates": [
+          105.31264148828103,
+          -5.3594879832130715
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "BKL",
+        "jenis": "kantin"
+      },
+      "geometry": {
+        "coordinates": [
+          105.316333457513,
+          -5.357721892300347
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"nama": "ITERA"},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              105.30914154349068,
+              -5.35816144016475
+            ],
+            [
+              105.3075079930461,
+              -5.358480960959284
+            ],
+            [
+              105.30742473949113,
+              -5.359330594577941
+            ],
+            [
+              105.3073622983473,
+              -5.359807217130893
+            ],
+            [
+              105.307535745969,
+              -5.3599591836633635
+            ],
+            [
+              105.30843767360574,
+              -5.360000629074747
+            ],
+            [
+              105.30822953645838,
+              -5.361209452341328
+            ],
+            [
+              105.30838385477159,
+              -5.361208218488471
+            ],
+            [
+              105.30845906784185,
+              -5.372275067709097
+            ],
+            [
+              105.31047819713541,
+              -5.372296465762119
+            ],
+            [
+              105.3213255644477,
+              -5.372296465762119
+            ],
+            [
+              105.3215347332557,
+              -5.363253012268302
+            ],
+            [
+              105.32147139002876,
+              -5.354655019492185
+            ],
+            [
+              105.32038400335051,
+              -5.354707574900672
+            ],
+            [
+              105.31972945991356,
+              -5.355306706240583
+            ],
+            [
+              105.31716410117076,
+              -5.356052996928312
+            ],
+            [
+              105.31423977000566,
+              -5.356967458304268
+            ],
+            [
+              105.30914154349068,
+              -5.35816144016475
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
